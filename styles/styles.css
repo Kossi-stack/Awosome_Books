@@ -1,0 +1,137 @@
+html,
+body {
+  padding: 0;
+  font-family: 'Comic Sans MS', "Comic Sans", cursive;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  height: 90%;
+}
+
+main {
+  height: 100%;
+  width: 90%;
+  margin: 5px auto;
+}
+
+section {
+  flex-direction: column;
+  display: none;
+}
+
+#listbook {
+  display: flex;
+}
+
+nav {
+  height: 50px;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 5px 0;
+  line-height: 44px;
+}
+
+li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+span {
+  line-height: 54px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  font-size: 24px;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+footer {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  bottom: 0;
+  color: white;
+  text-align: start;
+}
+
+h3 {
+  font-size: 24px;
+  margin-left: 0;
+  padding: 10px 20px;
+  color: black;
+  border: solid 3px black;
+}
+
+button {
+  position: relative;
+  font-family: 'Comic Sans MS', "Comic Sans", cursive;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  margin-right: 5px;
+  padding: 2px 10px;
+  box-shadow: 2px 2px 0 black;
+}
+
+input {
+  font-family: 'Comic Sans MS', "Comic Sans", cursive;
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+
+p {
+  margin: 0;
+  font-weight: bold;
+  display: flex;
+  padding: 3px;
+  font-size: 14px;
+  line-height: 28px;
+  justify-content: space-between;
+}
+
+#booklist > p:nth-of-type(odd) { background: gray; }
+
+.border {
+  border: solid 3px black;
+}
+
+.add {
+  position: relative;
+  margin-left: 155px;
+  font-family: 'Comic Sans MS', "Comic Sans", cursive;
+  background-color: white;
+  color: black;
+  padding: 2px 10px;
+  box-shadow: 2px 2px 0 black;
+  margin-right: 0;
+}
+
+.booklist:empty {
+  display: none;
+}
+
+.border-right {
+  border-right: 1px solid black;
+}
